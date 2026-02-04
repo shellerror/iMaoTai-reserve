@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(venvScriptspip:*)",
+      "Bash(./venv/Scripts/pip.exe:*)",
+      "Bash(./venv/Scripts/python.exe:*)",
+      "Bash(setx:*)",
+      "Bash(set:*)",
+      "Bash(set PRIVATE_AES_KEY=imt_secret_key_2024_beijing:*)",
+      "Bash(if:*)",
+      "Bash(then cat \"D:/MyCode/iMaoTai-reserve-master/myConfig/credentials\")",
+      "Bash(else:*)",
+      "Bash(fi:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(schtasks:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(cmd:*)",
+      "Bash(then echo \"Git initialized\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
