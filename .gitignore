@@ -12,8 +12,6 @@ dist/
 build/
 
 # iMaoTai specific (IMPORTANT: Never commit credentials!)
-myConfig/credentials
-myConfig/credentials.backup
 *.bak
 
 # IDE
